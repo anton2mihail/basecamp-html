@@ -27,7 +27,7 @@ li{
 }
 
 li > a:hover {
-        opacity: 0.8;
+    opacity: 0.8;
 }
 
 li > a, h2, footer > p{
