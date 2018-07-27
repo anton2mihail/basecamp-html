@@ -1,0 +1,95 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Courier New',
+    Courier,
+    monospace;
+
+}
+.container{
+    display: flex;
+    background-color: darkslategray;
+    width: 100%;
+}
+.container > h2{
+    padding-left:15px; 
+}
+.nav{
+    list-style-type: none;
+    padding-top: 8px;
+    padding-right: 15px;
+    width: 100%;
+    text-align: right;
+}
+li{
+    display: inline;
+    padding-right: 8px;
+}
+
+li > a:hover {
+        opacity: 0.8;
+}
+
+li > a, h2, footer > p{
+    color: antiquewhite;
+    text-decoration: none;
+    transition: 0.3 opacity ease-in-out;
+}
+.header{
+    margin: 0;
+    padding: 50px 0;
+    width: 100%;
+    background-color: black;
+    color: gold;
+    text-align: center;
+}
+.on-header{
+    font-size: 3em;
+}
+
+.three-part, .two-part{
+    display: flex;
+    margin: 30px 0;
+    height: 175px;
+}
+.three-part > div{
+    border-radius: 15px;
+    height: 100%;
+    width:22%;
+    margin-left: 5.66%;
+    margin-right: 5.66%;
+    background-color: aquamarine;
+}
+.two-part{
+    margin: 0 3vw;
+}
+.two-part > div{
+    border-radius: 15px;
+    height: 100%;
+    width: 45%;
+    margin: 0 2.5%;
+    background-color: peru;
+
+}
+.content-img{
+    display: flex;
+    margin: 9vh 3vw;
+}
+.content-img > p{
+    margin-left: 10vw;
+    width: 20vw;
+    font-size: 12px;
+}
+.content-img > div{
+    margin: 0 auto;   
+}
+img{
+    padding-left: 18vw;
+}
+
+footer{
+    width: 100%;
+    padding: 25px 0;
+    background-color: darkslategrey;
+    text-align: center;
+}
